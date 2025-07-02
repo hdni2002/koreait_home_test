@@ -11,5 +11,7 @@ public interface UserMapper {
     int insert(User user);
     List<User> getUserList();
     Optional<User> getUserByUserId(Integer userId);
+    int editUser(User user);
+    int removeUser(Integer userId);
 
 }
